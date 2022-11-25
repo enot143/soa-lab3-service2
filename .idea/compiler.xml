@@ -10,6 +10,7 @@
         <module name="service2" />
         <module name="api-gateway" />
         <module name="config-server" />
+        <module name="soa-3-2" />
         <module name="eureka-server" />
       </profile>
     </annotationProcessing>
@@ -18,6 +19,7 @@
       <module name="config-server" target="11" />
       <module name="eureka-server" target="11" />
       <module name="service2" target="11" />
+      <module name="soa-3-2" target="11" />
     </bytecodeTargetLevel>
   </component>
   <component name="JavacSettings">
@@ -26,6 +28,7 @@
       <module name="config-server" options="-parameters" />
       <module name="eureka-server" options="-parameters" />
       <module name="service2" options="-parameters" />
+      <module name="soa-3-2" options="-parameters" />
     </option>
   </component>
 </project>

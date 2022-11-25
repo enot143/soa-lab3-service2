@@ -1,16 +1,16 @@
 <component name="ArtifactManager">
-  <artifact type="war" name="api-gateway:war">
-    <output-path>$PROJECT_DIR$/api-gateway/target</output-path>
+  <artifact type="war" name="soa-3-2:war">
+    <output-path>$PROJECT_DIR$/service2/target</output-path>
     <properties id="maven-jee-properties">
       <options>
         <exploded>false</exploded>
-        <module>api-gateway</module>
+        <module>soa-3-2</module>
         <packaging>war</packaging>
         <unpackNestedArchives>false</unpackNestedArchives>
       </options>
     </properties>
-    <root id="archive" name="api-gateway-0.0.1-SNAPSHOT.war">
-      <element id="artifact" artifact-name="api-gateway:war exploded" />
+    <root id="archive" name="soa-3-2-1.0-SNAPSHOT.war">
+      <element id="artifact" artifact-name="soa-3-2:war exploded" />
     </root>
   </artifact>
 </component>
